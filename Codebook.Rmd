@@ -1,0 +1,100 @@
+
+
+# Codebook
+## Course Project - Getting and Cleaning Data 
+
+This document contains details about the variables presented in the tidy data for the Coursera Getting and Cleaning Data Course Project.
+The original data 'Human Activity Recognition Using Smartphones Data Set' comes from the UCI Machine Learning Repositary and can be downloaded here:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The data describes different quantitiative variables measured during 6 distinct kinds of activities performed by 30 subjects.
+
+### Qualitative / Categorical Variables
+
+* activityID - The activity performed by the subject in the experiment
+* subjectID - The identifier for the subjects
+
+### Quantitative Variables
+
+Firstly there are the mean and standard deviarion variables describing time or frequency for the x, y, z axes or the overall magnitude:
+
+* time-BodyAcc-Std-X
+* time-BodyAcc-Std-Y
+* time-BodyAcc-Std-Z
+* time-GravityAcc-Std-X
+* time-GravityAcc-Std-Y
+* time-GravityAcc-Std-Z
+* time-BodyAccJerk-Std-X
+* time-BodyAccJerk-Std-Y
+* time-BodyAccJerk-Std-Z
+* time-BodyGyro-Std-X
+* time-BodyGyro-Std-Y
+* time-BodyGyro-Std-Z
+* time-BodyGyroJerk-Std-X
+* time-BodyGyroJerk-Std-Y
+* time-BodyGyroJerk-Std-Z
+* freq-BodyAcc-Std-X
+* freq-BodyAcc-Std-Y
+* freq-BodyAcc-Std-Z
+* freq-BodyAccJerk-Std-X
+* freq-BodyAccJerk-Std-Y
+* freq-BodyAccJerk-Std-Z
+* freq-BodyGyro-Std-X
+* freq-BodyGyro-Std-Y
+* freq-BodyGyro-Std-Z
+* time-BodyAcc-Mean-X
+* time-BodyAcc-Mean-Y
+* time-BodyAcc-Mean-Z
+* time-GravityAcc-Mean-X
+* time-GravityAcc-Mean-Y
+* time-GravityAcc-Mean-Z
+* time-BodyAccJerk-Mean-X
+* time-BodyAccJerk-Mean-Y
+* time-BodyAccJerk-Mean-Z
+* time-BodyGyro-Mean-X
+* time-BodyGyro-Mean-Y
+* time-BodyGyro-Mean-Z
+* time-BodyGyroJerk-Mean-X
+* time-BodyGyroJerk-Mean-Y
+* time-BodyGyroJerk-Mean-Z
+* freq-BodyAcc-Mean-X
+* freq-BodyAcc-Mean-Y
+* freq-BodyAcc-Mean-Z
+* freq-BodyAccJerk-Mean-X
+* freq-BodyAccJerk-Mean-Y
+* freq-BodyAccJerk-Mean-Z
+* freq-BodyGyro-Mean-X
+* freq-BodyGyro-Mean-Y
+* freq-BodyGyro-Mean-Z
+* time-BodyAccMagnitude-Std
+* time-GravityAccMagnitude-Std
+* time-BodyAccJerkMagnitude-Std
+* time-BodyGyroMagnitude-Std
+* time-BodyGyroJerkMagnitude-Std
+* freq-BodyAccMagnitude-Std
+* freq-BodyBodyAccJerkMagnitude-Std
+* freq-BodyBodyGyroMagnitude-Std
+* freq-BodyBodyGyroJerkMagnitude-Std
+* time-BodyAccMagnitude-Mean
+* time-GravityAccMagnitude-Mean
+* time-BodyAccJerkMagnitude-Mean
+* time-BodyGyroMagnitude-Mean
+* time-BodyGyroJerkMagnitude-Mean
+* freq-BodyAccMagnitude-Mean
+* freq-BodyBodyAccJerkMagnitude-Mean
+* freq-BodyBodyGyroMagnitude-Mean
+* freq-BodyBodyGyroJerkMagnitude-Mean
+
+## Activity Labels
+
+These are the activies performed by the subjects that were monitored in the experiment:
+
+* LAYING
+* SITTING
+* STANDING
+* WALKING
+* WALKING_DOWNSTAIRS
+* WALKING_UPSTAIRS
+
+ 
